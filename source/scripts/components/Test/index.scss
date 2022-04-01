@@ -1,0 +1,17 @@
+.card {
+   display: flex;
+   flex-direction: column;
+
+   &__header {
+      font-weight: bold;
+      font-size: 1.1em;
+      padding: 3em;
+      border: 1px solid grey;
+      animation: hello 1s ease;
+   }
+
+   &__body {
+      padding: 1em;
+      border: 1px solid grey;
+   }
+}
